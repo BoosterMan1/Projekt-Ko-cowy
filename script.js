@@ -61,7 +61,7 @@ button10.addEventListener("click", () => {
 })
 let button11 = document.querySelector("#radio20")
 let p6 = document.querySelector("#p6")
-button10.addEventListener("click", () => {
+button11.addEventListener("click", () => {
     p5.classList.add('hidden')
     p4.classList.add('hidden')
     p3.classList.add('hidden')
