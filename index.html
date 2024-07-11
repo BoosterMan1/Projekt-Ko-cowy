@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czym jest lęk?</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+    </style>
+</head>
+
+<body>
+    <section class="section1">
+        <header>
+            <div class="logo__div">
+                <span class="left">CZYM</span>
+                <span class="center">JEST</span>
+                <span class="right">LĘK</span>
+                <span class="rightmost">?</span>
+            </div>
+        </header>
+    </section>
+    <section class="section2">
+        <p class="section2__text">Odpowiedz na pytania</p>
+    </section>
+    <section class="section3">
+        <!-- Szablon pytania -->
+
+        <!-- <div class="section3__choice">
+            <p class="section3__choice__question"></p>
+            <div>
+                <input type="radio" name="choice" id="radio">
+                <label for="radio">TAK</label>
+            </div>
+            <div>
+                <input type="radio" name="choice" id="radio">
+                <label for="radio">NIE</label>
+            </div>
+        </div> -->
+        <div class="section3__choice">
+            <p class="section3__choice__question">Boisz się czegoś?</p>
+            <div>
+                <input type="radio" name="choice1" id="radio1">
+                <label for="radio1">TAK</label>
+            </div>
+            <div>
+                <input type="radio" name="choice1" id="radio2">
+                <label for="radio2" id="radio2__label">NIE</label>
+            </div>
+        </div>
+
+        <div class="section3__choice">
+            <p class="section3__choice__question">Czy boisz się ciemności?</p>
+            <div>
+                <input type="radio" name="choice2" id="radio3">
+                <label for="radio3">TAK</label>
+            </div>
+            <div>
+                <input type="radio" name="choice2" id="radio4">
+                <label for="radio4">NIE</label>
+            </div>
+        </div>
+        <div class="section3__choice">
+            <p class="section3__choice__question">Czy boisz się tornad?</p>
+            <div>
+                <input type="radio" name="choice3" id="radio5">
+                <label for="radio5">TAK</label>
+            </div>
+            <div>
+                <input type="radio" name="choice3" id="radio6">
+                <label for="radio6">NIE</label>
+            </div>
+        </div>
+        <div class="section3__choice">
+            <p class="section3__choice__question">Czy boisz się klaunów?</p>
+            <div>
+                <input type="radio" name="choice4" id="radio7">
+                <label for="radio7">TAK</label>
+            </div>
+            <div>
+                <input type="radio" name="choice4" id="radio8">
+                <label for="radio8">NIE</label>
+            </div>
+        </div>
+        <div class="section3__choice">
+            <p class="section3__choice__question">Czy boisz się pająków?</p>
+            <div>
+                <input type="radio" name="choice5" id="radio9">
+                <label for="radio9">TAK</label>
+            </div>
+            <div>
+                <input type="radio" name="choice5" id="radio10">
+                <label for="radio10">NIE</label>
+            </div>
+        </div>
+        <div class="section3__choice section3__choice__exception">
+            <p class="section3__choice__question">Czy niedługo stanie ci się coś złego?</p>
+            <div>
+                <input type="radio" name="choice6" id="radio11" class="vanish">
+                <label for="radio11" id="radio11label">TAK</label>
+            </div>
+            <div>
+                <input type="radio" name="choice6" id="radio12" class="vanish">
+                <label for="radio12" id="radio12label">NIE</label>
+            </div>
+            <div>
+                <input type="radio" name="choice6" id="radio13">
+                <label for="radio13">NIE WIEM</label>
+            </div>
+        </div>
+        <div class="section3__choice">
+            <p class="section3__choice__question">Czy boisz się lalek?</p>
+            <div>
+                <input type="radio" name="choice7" id="radio14">
+                <label for="radio14">TAK</label>
+            </div>
+            <div>
+                <input type="radio" name="choice7" id="radio16">
+                <label for="radio16">NIE</label>
+            </div>
+        </div>
+        <div class="section3__choice">
+            <p class="section3__choice__question">Znasz wszystkie swoje lęki?</p>
+            <div>
+                <input type="radio" name="choice8" id="radio17">
+                <label for="radio17" id="radio17label">TAK</label>
+            </div>
+            <div>
+                <input type="radio" name="choice8" id="radio18">
+                <label for="radio18">NIE</label>
+            </div>
+        </div>
+        <div class="section3__choice" data-on-reach="jumpscare" data-target=".background__scaryface"
+            data-audio="jumpscare.mp3">
+            <!-- DAJ TU AUDIO NAGRANIA -->
+            <p class="section3__choice__question">
+                Odpowiedziałeś szczerze?
+            </p>
+
+            <div>
+                <input type="radio" name="choice9" id="radio19">
+                <label for="radio19">TAK</label>
+            </div>
+            <div>
+                <input type="radio" name="choice9" id="radio20">
+                <label for="radio20">NIE</label>
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+    </section>
+    <div class="intersection__text__container">
+        <span data-on-reach="left2" class="invisible">Poznaj</span>
+        <span data-on-reach="center2" class="invisible">swoje</span>
+        <span data-on-reach="right2" class="invisible">lęki</span>
+    </div>
+    <section class="section5"></section>
+    <section class="section6">
+        <p id="p1" class="section6__text"></p>
+        <p id="p2" class="section6__text"></p>
+        <p id="p3" class="section6__text"></p>
+        <p id="p4" class="section6__text"></p>
+        <p id="p5" class="section6__text"></p>
+    </section>
+    <img src="SCP-087.webp" alt="Picture of a disturbing face" class="background__scaryface">
+    <script src="script.js">
+    </script>
+</body>
+
+
+</html>
