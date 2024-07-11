@@ -62,13 +62,13 @@ button10.addEventListener("click", () => {
 let button11 = document.querySelector("#radio20")
 let p6 = document.querySelector("#p6")
 button11.addEventListener("click", () => {
-    p5.classList.add('hidden')
-    p4.classList.add('hidden')
-    p3.classList.add('hidden')
-    p2.classList.add('hidden')
-    p1.classList.add('hidden')
+    p5.classList.remove('displayed')
+    p4.classList.remove('displayed')
+    p3.classList.remove('displayed')
+    p2.classList.remove('displayed')
+    p1.classList.remove('displayed')
     p6.classList.add('displayed')
-    p6.textContent = "SKŁAMAŁEŚ! NIE DOSTANIESZ WYNIKÓW!"
+    p6.textContent = "NIE ODPOWIEDZIAŁEŚ SZCZERZE?! NIE DOSTANIESZ WYNIKÓW!"
 })
 // MASZ ARACHNOFOBIĘ - LĘK PRZED PAJĄKAMI
 // MASZ LILAPSOFOBIĘ - LĘK PRZED TORNADAMI I GWAŁTOWNYMI BURZAMI
@@ -145,4 +145,5 @@ function playAudio(audioMp3, onPlay) {
         onPlay?.()
     })
 }
+
 
