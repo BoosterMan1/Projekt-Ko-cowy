@@ -65,41 +65,41 @@ button10.addEventListener("click", () => {
     p5.textContent = "MASZ NYKTOFOBIĘ - LĘK PRZED CIEMNOŚCIĄ";
 });
 
-// Usuwanie klasy displayed po kliknięciu przycisku
-let button11 = document.querySelector("#radio10");
-let p1no = document.querySelector("#p1");
+// // Usuwanie klasy displayed po kliknięciu przycisku
+// let button11 = document.querySelector("#radio10");
+// let p1no = document.querySelector("#p1");
 
-button11.addEventListener("click", () => {
-    p1no.classList.remove('displayed');
-});
+// button11.addEventListener("click", () => {
+//     p1no.classList.remove('displayed');
+// });
 
-let button12 = document.querySelector("#radio6");
-let p2no = document.querySelector("#p2");
+// let button12 = document.querySelector("#radio6");
+// let p2no = document.querySelector("#p2");
 
-button12.addEventListener("click", () => {
-    p2no.classList.remove('displayed');
-});
+// button12.addEventListener("click", () => {
+//     p2no.classList.remove('displayed');
+// });
 
-let button13 = document.querySelector("#radio8");
-let p3no = document.querySelector("#p3");
+// let button13 = document.querySelector("#radio8");
+// let p3no = document.querySelector("#p3");
 
-button13.addEventListener("click", () => {
-    p3no.classList.remove('displayed');
-});
+// button13.addEventListener("click", () => {
+//     p3no.classList.remove('displayed');
+// });
 
-let button14 = document.querySelector("#radio15");
-let p4no = document.querySelector("#p4");
+// let button14 = document.querySelector("#radio15");
+// let p4no = document.querySelector("#p4");
 
-button14.addEventListener("click", () => {
-    p4no.classList.remove('displayed');
-});
+// button14.addEventListener("click", () => {
+//     p4no.classList.remove('displayed');
+// });
 
-let button15 = document.querySelector("#radio4");
-let p5no = document.querySelector("#p5");
+// let button15 = document.querySelector("#radio4");
+// let p5no = document.querySelector("#p5");
 
-button15.addEventListener("click", () => {
-    p5no.classList.remove('displayed');
-});
+// button15.addEventListener("click", () => {
+//     p5no.classList.remove('displayed');
+// });
 
 // Zmiana tekstu po kliknięciu przycisku
 let button16 = document.querySelector("#radio20");
@@ -115,12 +115,12 @@ button16.addEventListener("click", () => {
     p6.textContent = "NIE ODPOWIEDZIAŁEŚ SZCZERZE?! NIE DOSTANIESZ WYNIKÓW!";
 });
 
-let button17 = document.querySelector("#radio19");
-let p6yes = document.querySelector("#p6");
+// let button17 = document.querySelector("#radio19");
+// let p6yes = document.querySelector("#p6");
 
-button17.addEventListener("click", () => {
-    p6yes.classList.remove('displayed');
-});
+// button17.addEventListener("click", () => {
+//     p6yes.classList.remove('displayed');
+// });
 // MASZ ARACHNOFOBIĘ - LĘK PRZED PAJĄKAMI
 // MASZ LILAPSOFOBIĘ - LĘK PRZED TORNADAMI I GWAŁTOWNYMI BURZAMI
 // MASZ KAULROFOBIĘ - LĘK PRZED KLAUNAMI
