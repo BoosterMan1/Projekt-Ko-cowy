@@ -1,10 +1,5 @@
 //Zmiana tekstu po kliknięciu
-let button = document.querySelector("#radio10")
-let nextQuestion = document.querySelector("#nextQuestion")
 
-button.addEventListener("click", () => {
-    nextQuestion.textContent = "Na pewno?"
-})
 let button2 = document.querySelector("#radio2")
 let label = document.querySelector("#radio2__label")
 
@@ -30,26 +25,26 @@ button5.addEventListener("click", () => {
 let button6 = document.querySelector("#radio9")
 let p1 = document.querySelector("#p1")
 
-button.addEventListener("click", () => {
+button6.addEventListener("click", () => {
     p1.classList.add('displayed')
     p1.textContent = "MASZ ARACHNOFOBIĘ - LĘK PRZED PAJĄKAMI"
 })
 let button7 = document.querySelector("#radio5")
 let p2 = document.querySelector("#p2")
 
-button2.addEventListener("click", () => {
+button7.addEventListener("click", () => {
     p2.classList.add('displayed')
     p2.textContent = "MASZ LILAPSOFOBIĘ - LĘK PRZED TORNADAMI I GWAŁTOWNYMI BURZAMI"
 })
 let button8 = document.querySelector("#radio7")
 let p3 = document.querySelector("#p3")
-button3.addEventListener("click", () => {
+button8.addEventListener("click", () => {
     p3.classList.add('displayed')
     p3.textContent = "MASZ KAULROFOBIĘ - LĘK PRZED KLAUNAMI"
 })
 let button9 = document.querySelector("#radio14")
 let p4 = document.querySelector("#p4")
-button4.addEventListener("click", () => {
+button9.addEventListener("click", () => {
     p4.classList.add('displayed')
     p4.textContent = "MASZ PEDIOFOBIĘ - LĘK PRZED LALKAMI"
 })
@@ -145,5 +140,4 @@ function playAudio(audioMp3, onPlay) {
         onPlay?.()
     })
 }
-
 
