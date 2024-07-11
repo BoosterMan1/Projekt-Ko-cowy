@@ -59,16 +59,16 @@ button10.addEventListener("click", () => {
     p5.classList.add('displayed')
     p5.textContent = "MASZ NYKTOFOBIĘ - LĘK PRZED CIEMNOŚCIĄ"
 })
-let button11 = document.querySelector("#radio3")
-let p6 = document.querySelector("#p5")
+let button11 = document.querySelector("#radio20")
+let p6 = document.querySelector("#p6")
 button10.addEventListener("click", () => {
-    p6.classList.add('displayed')
-    p6.textContent = "SKŁAMAŁEŚ! NIE DOSTANIESZ WYNIKÓW!"
     p5.classList.add('hidden')
     p4.classList.add('hidden')
     p3.classList.add('hidden')
     p2.classList.add('hidden')
     p1.classList.add('hidden')
+    p6.classList.add('displayed')
+    p6.textContent = "SKŁAMAŁEŚ! NIE DOSTANIESZ WYNIKÓW!"
 })
 // MASZ ARACHNOFOBIĘ - LĘK PRZED PAJĄKAMI
 // MASZ LILAPSOFOBIĘ - LĘK PRZED TORNADAMI I GWAŁTOWNYMI BURZAMI
